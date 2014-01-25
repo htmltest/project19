@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Полюс</title>
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css">
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css">
+
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=1280">
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+
+                <header>
+
+                    <div class="menu-top">
+                        <ul>
+                            <li class="active"><a href="#">Интернет-магазин</a></li>
+                            <li><a href="#">Серверные решения</a></li>
+                            <li><a href="#">Обслуживание оргтехники</a></li>
+                            <li><a href="#">Телекоммуникации</a></li>
+                            <li><a href="#">Корпоративным клиентам</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-middle">
+                        <div class="header-logo"><img src="images/logo.png" alt="" width="190" height="58"></div>
+
+                        <div class="header-contacts">Санкт-петербург, Большой пр. пс, д.92, Лит.В <span>+7 (812) 703-10-50</span></div>
+                        <div class="header-user">
+                            <ul>
+                                <li><a href="#" class="header-user-reg">Регистрация</a></li>
+                                <li><a href="#" class="header-user-login">Войти в аккаунт</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="menu-middle">
+                        <ul>
+                            <li><a href="#">Акции!</a></li>
+                            <li><a href="#">Условия доставки</a></li>
+                            <li><a href="#">Продажа в кредит</a></li>
+                            <li><a href="#">Money back</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Распродажи</a></li>
+                            <li><a href="#">Организациям</a></li>
+                            <li><a href="#">Поставщикам</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-bottom">
+                        <div class="header-social">
+                            <div class="header-social-item">
+                                <img src="files/header-social-1.png" alt="" width="101" height="20">
+                            </div>
+                            <div class="header-social-item">
+                                <img src="files/header-social-2.png" alt="" width="59" height="20">
+                            </div>
+                            <div class="header-social-item">
+                                <img src="files/header-social-3.png" alt="" width="77" height="20">
+                            </div>
+                        </div>
+
+                        <div class="header-search">
+                            <form action="#" method="post">
+                                <div class="header-search-input">
+                                    <span>Поиск...</span>
+                                    <input type="text" name="search" value="">
+                                </div>
+                                <div class="header-search-submit"><input type="submit" value=""></div>
+                            </form>
+                        </div>
+                    </div>
+
+                </header>
+
+                <section>
+
+                    <nav>
+                        <div class="nav-title">Каталог продукции</div>
+                        <ul>
+                            <li><a href="#">Компьютеры, комплектующие</a></li>
+                            <li><a href="#">Игры, ПО, гаджеты</a></li>
+                            <li><a href="#">Ноутбуки, планшеты, телефоны</a></li>
+                            <li class="active">
+                                <a href="#">ТВ, оргтехника, мониторы</a>
+                                <ul>
+                                    <li><a href="#">Телевизоры</a></li>
+                                    <li><a href="#">Hi-Fi компоненты</a></li>
+                                    <li><a href="#">Плееры: DVD, Blu-ray, мультимедиа</a></li>
+                                    <li><a href="#">Проекторы</a></li>
+                                    <li><a href="#">Домашние кинотеатры</a></li>
+                                    <li class="active">
+                                        <a href="#">Спутниковое, цифровое, кабельное тв</a>
+                                        <ul>
+                                            <li><a href="#">Утюги</a></li>
+                                            <li class="active"><a href="#">Холодильники</a></li>
+                                            <li><a href="#">Посудомоечные машины</a></li>
+                                            <li><a href="#">Микроволновые печи</a></li>
+                                            <li><a href="#">Миксеры</a></li>
+                                            <li><a href="#">Электрочайники</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Музыкальные центры и магнитолы</a></li>
+                                    <li><a href="#">Аксессуары для аудио-видео</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Бытовая техника</a></li>
+                        </ul>
+                    </nav>
+
+                    <article>
+
+                        <!-- main slider -->
+                        <div class="main-slider">
+                            <div class="main-slider-title"><a href="#">Бестселлеры</a></div>
+
+                            <div class="main-slider-container">
+                                <div class="main-slider-content">
+                                    <div class="main-slider-list">
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-1.png" alt="" width="283" height="147">
+                                                    <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-3"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">1 750 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-2.png" alt="" width="237" height="197">
+                                                    <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">150 000 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-3.png" alt="" width="274" height="183">
+                                                    <span>Микроволновая печь Samsung модель: ZP-3562678, 40 литров</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">18 700 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-4.png" alt="" width="262" height="129">
+                                                    <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-3"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">1 750 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-5.png" alt="" width="152" height="186">
+                                                    <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">150 000 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-6.png" alt="" width="178" height="187">
+                                                    <span>Микроволновая печь Samsung модель: ZP-3562678, 40 литров</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">18 700 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-1.png" alt="" width="283" height="147">
+                                                    <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-3"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">1 750 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+
+                                        <!-- main slider item -->
+                                        <div class="main-slider-item">
+                                            <div class="main-slider-link">
+                                                <a href="#" class="main-slider-link-a">
+                                                    <img src="files/main-slider-2.png" alt="" width="237" height="197">
+                                                    <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                                </a>
+                                                <div class="main-slider-add">
+                                                    <div class="main-slider-add-top"></div>
+                                                    <div class="main-slider-add-middle">
+                                                        <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                        <div class="main-slider-add-links">
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                            </div>
+                                                            <div class="main-slider-add-link">
+                                                                <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                                <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-slider-add-bottom"></div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-info">
+                                                <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                                <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                                <div class="main-slider-price">150 000 Р</div>
+                                            </div>
+                                        </div>
+                                        <!-- main slider item END -->
+                                    </div>
+                                </div>
+                                <a href="#" class="main-slider-prev"></a>
+                                <a href="#" class="main-slider-next"></a>
+                            </div>
+
+                        </div>
+                        <!-- main slider END -->
+
+                        <!-- main content -->
+                        <div class="main-content">
+                            <div class="main-content-item">
+                                <div class="main-slider-title"><a href="#">Специальные предложения</a></div>
+
+                                <!-- main slider item -->
+                                <div class="main-slider-item">
+                                    <div class="main-slider-link">
+                                        <a href="#" class="main-slider-link-a">
+                                            <img src="files/main-slider-4.png" alt="" width="262" height="129">
+                                            <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                        </a>
+                                        <div class="main-slider-add">
+                                            <div class="main-slider-add-top"></div>
+                                            <div class="main-slider-add-middle">
+                                                <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                <div class="main-slider-add-links">
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                    </div>
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                    </div>
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-add-bottom"></div>
+                                        </div>
+                                    </div>
+                                    <div class="main-slider-info">
+                                        <div class="main-slider-rating"><div class="rating-3"></div></div>
+                                        <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                        <div class="main-slider-price">1 750 Р</div>
+                                    </div>
+                                </div>
+                                <!-- main slider item END -->
+                            </div>
+
+                            <div class="main-content-item main-content-item-discount">
+                                <div class="main-slider-title"><a href="#">Распродажа</a></div>
+
+                                <!-- main slider item -->
+                                <div class="main-slider-item">
+                                    <div class="main-slider-link">
+                                        <a href="#" class="main-slider-link-a">
+                                            <img src="files/main-slider-5.png" alt="" width="152" height="186">
+                                            <span>Ноутбук Toshiba EZ254877 код 14/12546 цвыа  ва в цу* 45550 000</span>
+                                        </a>
+                                        <div class="main-slider-add">
+                                            <div class="main-slider-add-top"></div>
+                                            <div class="main-slider-add-middle">
+                                                <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                <div class="main-slider-add-links">
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                    </div>
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                    </div>
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-add-bottom"></div>
+                                        </div>
+                                    </div>
+                                    <div class="main-slider-info">
+                                        <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                        <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                        <div class="main-slider-price">150 000 Р</div>
+                                    </div>
+                                </div>
+                                <!-- main slider item END -->
+
+                                <!-- main slider item -->
+                                <div class="main-slider-item">
+                                    <div class="main-slider-link">
+                                        <a href="#" class="main-slider-link-a">
+                                            <img src="files/main-slider-6.png" alt="" width="178" height="187">
+                                            <span>Микроволновая печь Samsung модель: ZP-3562678, 40 литров</span>
+                                        </a>
+                                        <div class="main-slider-add">
+                                            <div class="main-slider-add-top"></div>
+                                            <div class="main-slider-add-middle">
+                                                <div class="main-slider-add-text">Компьютер для дома PolusWorld Intel® Pentium™ G620, RAM 2Gb, HDD 500Gb, DVD±RW, без операционной системы</div>
+                                                <div class="main-slider-add-links">
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-1.png" alt="" width="33" height="28"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">К сравнению</a></div>
+                                                    </div>
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-2.png" alt="" width="33" height="27"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">В закладки</a></div>
+                                                    </div>
+                                                    <div class="main-slider-add-link">
+                                                        <div class="main-slider-add-link-img"><img src="images/main-slider-add-link-3.png" alt="" width="27" height="26"></div>
+                                                        <div class="main-slider-add-link-text"><a href="#">Ссылка другу</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-slider-add-bottom"></div>
+                                        </div>
+                                    </div>
+                                    <div class="main-slider-info">
+                                        <div class="main-slider-rating"><div class="rating-5"></div></div>
+                                        <a href="#" class="main-slider-basket"><img src="images/main-slider-basket.png" alt="" width="34" height="26"></a>
+                                        <div class="main-slider-price">18 700 Р</div>
+                                    </div>
+                                </div>
+                                <!-- main slider item END -->
+                            </div>
+                        </div>
+                        <!-- main content END -->
+
+                    </article>
+
+                </section>
+
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-consult"><a href="#">On-line помощник</a></div>
+
+                <div class="footer-middle">
+                    <div class="footer-compare">
+                        <div class="footer-compare-img"><img src="images/footer-compare.png" alt="" width="33" height="28"></div>
+                        <div class="footer-compare-val">5</div>
+                        <div class="footer-compare-link"><a href="#">Сравнения</a></div>
+                    </div>
+                    <div class="footer-fav">
+                        <div class="footer-fav-img"><img src="images/footer-fav.png" alt="" width="33" height="27"></div>
+                        <div class="footer-fav-val">0</div>
+                        <div class="footer-fav-link"><a href="#">Ваши закладки</a></div>
+                    </div>
+                </div>
+
+                <div class="footer-cart">
+                    <div class="footer-cart-link"><a href="#">Ваша корзина</a></div>
+                    <div class="footer-cart-val">5</div>
+                </div>
+
+                <div class="footer-order-link">
+                    <a href="#">Оформить заказ</a>
+                </div>
+
+                <a href="#" class="footer-back"></a>
+            </div>
+        </footer>
+
+    </body>
+</html>

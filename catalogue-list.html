@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Полюс</title>
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css">
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css">
+
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=1280">
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+
+                <header>
+
+                    <div class="menu-top">
+                        <ul>
+                            <li class="active"><a href="#">Интернет-магазин</a></li>
+                            <li><a href="#">Серверные решения</a></li>
+                            <li><a href="#">Обслуживание оргтехники</a></li>
+                            <li><a href="#">Телекоммуникации</a></li>
+                            <li><a href="#">Корпоративным клиентам</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-middle">
+                        <div class="header-logo"><img src="images/logo.png" alt="" width="190" height="58"></div>
+
+                        <div class="header-contacts">Санкт-петербург, Большой пр. пс, д.92, Лит.В <span>+7 (812) 703-10-50</span></div>
+                        <div class="header-user">
+                            <ul>
+                                <li><a href="#" class="header-user-reg">Регистрация</a></li>
+                                <li><a href="#" class="header-user-login">Войти в аккаунт</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="menu-middle">
+                        <ul>
+                            <li><a href="#">Акции!</a></li>
+                            <li><a href="#">Условия доставки</a></li>
+                            <li><a href="#">Продажа в кредит</a></li>
+                            <li><a href="#">Money back</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Распродажи</a></li>
+                            <li><a href="#">Организациям</a></li>
+                            <li><a href="#">Поставщикам</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-bottom">
+                        <div class="header-social">
+                            <div class="header-social-item">
+                                <img src="files/header-social-1.png" alt="" width="101" height="20">
+                            </div>
+                            <div class="header-social-item">
+                                <img src="files/header-social-2.png" alt="" width="59" height="20">
+                            </div>
+                            <div class="header-social-item">
+                                <img src="files/header-social-3.png" alt="" width="77" height="20">
+                            </div>
+                        </div>
+
+                        <div class="header-search">
+                            <form action="#" method="post">
+                                <div class="header-search-input">
+                                    <span>Поиск...</span>
+                                    <input type="text" name="search" value="">
+                                </div>
+                                <div class="header-search-submit"><input type="submit" value=""></div>
+                            </form>
+                        </div>
+                    </div>
+
+                </header>
+
+                <section>
+
+                    <nav>
+                        <div class="nav-title">Каталог продукции</div>
+                        <ul>
+                            <li><a href="#">Компьютеры, комплектующие</a></li>
+                            <li><a href="#">Игры, ПО, гаджеты</a></li>
+                            <li><a href="#">Ноутбуки, планшеты, телефоны</a></li>
+                            <li class="active">
+                                <a href="#">ТВ, оргтехника, мониторы</a>
+                                <ul>
+                                    <li><a href="#">Телевизоры</a></li>
+                                    <li><a href="#">Hi-Fi компоненты</a></li>
+                                    <li><a href="#">Плееры: DVD, Blu-ray, мультимедиа</a></li>
+                                    <li><a href="#">Проекторы</a></li>
+                                    <li><a href="#">Домашние кинотеатры</a></li>
+                                    <li class="active">
+                                        <a href="#">Спутниковое, цифровое, кабельное тв</a>
+                                        <ul>
+                                            <li><a href="#">Утюги</a></li>
+                                            <li class="active"><a href="#">Холодильники</a></li>
+                                            <li><a href="#">Посудомоечные машины</a></li>
+                                            <li><a href="#">Микроволновые печи</a></li>
+                                            <li><a href="#">Миксеры</a></li>
+                                            <li><a href="#">Электрочайники</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Музыкальные центры и магнитолы</a></li>
+                                    <li><a href="#">Аксессуары для аудио-видео</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Бытовая техника</a></li>
+                        </ul>
+                    </nav>
+
+                    <aside>
+
+                        <!-- filter -->
+                        <div class="filter">
+                            <div class="filter-title">Подбор по параметрам</div>
+
+                            <form action="#" method="post">
+
+                                <div class="filter-item">
+                                    <div class="filter-item-title">По типу:</div>
+                                    <div class="filter-item-cols">
+                                        <div class="filter-item-col">
+                                            <p><a href="#">Для компьютеров</a> <span>76</span></p>
+                                            <p><a href="#">Для ноутбуков</a> <span>22</span></p>
+                                            <p><a href="#">Гибридные</a> <span>1</span></p>
+                                        </div>
+                                        <div class="filter-item-col">
+                                            <p><a href="#">Твердотельные</a> <span>75</span></p>
+                                            <p><a href="#">Внешние</a> <span>119</span></p>
+                                            <p><a href="#">Для серверов</a> <span>48</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="filter-item">
+                                    <div class="filter-item-title">По брендам:</div>
+                                    <div class="filter-item-cols">
+                                        <div class="filter-item-col">
+                                            <div class="filter-item-checkbox">
+                                                <em><input type="checkbox" name="brand1"></em>
+                                                <a href="#">Western Digital</a> <span>6</span>
+                                            </div>
+                                            <div class="filter-item-checkbox">
+                                                <em><input type="checkbox" name="brand2"></em>
+                                                <a href="#">Seagate</a> <span>243</span>
+                                            </div>
+                                            <div class="filter-item-checkbox">
+                                                <em><input type="checkbox" name="brand3"></em>
+                                                <a href="#">Age Sta</a> <span>7</span>
+                                            </div>
+                                            <div class="filter-item-checkbox">
+                                                <em><input type="checkbox" name="brand4" checked="checked"></em>
+                                                <a href="#">Hitachi</a> <span>11</span>
+                                            </div>
+                                            <div class="filter-item-checkbox">
+                                                <em><input type="checkbox" name="brand5" disabled="disabled"></em>
+                                                <a href="#">Transcend</a> <span>76</span>
+                                            </div>
+                                            <div class="filter-item-checkbox">
+                                                <em><input type="checkbox" name="brand6"></em>
+                                                <a href="#">Toshiba</a> <span>45</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="filter-item">
+                                    <div class="filter-item-title">По цене:</div>
+
+                                    <div class="filter-price">
+                                        <div class="filter-price-input"><input type="text" name="priceFrom" id="priceFrom" value=""></div>
+                                        <div class="filter-price-text">---</div>
+                                        <div class="filter-price-input"><input type="text" name="priceTo" id="priceTo" value=""></div>
+                                        <div class="filter-price-text">рублей</div>
+                                    </div>
+
+                                    <div class="filter-slider-range">
+                                        <div id="slider-range"></div>
+                                    </div>
+                                </div>
+
+                                <div class="filter-item">
+                                    <div class="filter-item-title">По объёму:</div>
+                                    <div class="filter-item-cols">
+                                        <div class="filter-item-col">
+                                            <p><a href="#">60 Гб</a> <span>76</span></p>
+                                            <p><a href="#">90 Гб</a> <span>22</span></p>
+                                            <p><a href="#">600 Гб</a> <span>1</span></p>
+                                        </div>
+                                        <div class="filter-item-col">
+                                            <p><a href="#">900 Гб</a> <span>76</span></p>
+                                            <p><a href="#">1 Тб</a> <span>22</span></p>
+                                            <p><a href="#">50 Тб</a> <span>1</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <!-- filter END -->
+
+                    </aside>
+
+                    <article>
+
+                        <div class="breadcrumbs">
+                            <a href="#">ТВ, оргтехника, мониторы</a> <span></span>
+                            <a href="#">Спутниковое, цифровое, кабельное ТВ</a> <span></span>
+                            <strong>Холодильники</strong>
+                        </div>
+
+                        <!-- catalogue sort -->
+                        <div class="catalogue-sort">
+                            <div class="catalogue-sort-dir">
+                                <div class="catalogue-sort-dir-text">Сортировка:</div>
+                                <div class="catalogue-sort-dir-select">
+                                    <input type="hidden" name="sort" value="1">
+                                    <div class="catalogue-sort-dir-select-value">По рейтингу</div>
+                                    <div class="catalogue-sort-dir-select-list">
+                                        <div class="catalogue-sort-dir-select-list-inner">
+                                            <a href="#" class="active" rel="1">По рейтингу</a>
+                                            <a href="#" rel="2">По цене, от меньшей</a>
+                                            <a href="#" rel="3">По цене, от большей</a>
+                                            <a href="#" rel="4">По названию</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalogue-view">
+                                <a href="#" class="catalogue-view-1"></a>
+                                <a href="#" class="catalogue-view-2"></a>
+                                <a href="#" class="catalogue-view-3 active"></a>
+                                <a href="#" class="catalogue-view-4"></a>
+                            </div>
+                        </div>
+                        <!-- catalogue sort END -->
+
+                        <!-- catalogue list -->
+                        <div class="catalogue-list">
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; память 16Мб</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; память 16Мб</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; память 16Мб</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; память 16Мб</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; память 16Мб</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; память 16Мб</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                            <!-- catalogue list item -->
+                            <div class="catalogue-list-item">
+                                <div class="catalogue-list-item-text">
+                                    <div class="catalogue-list-item-name"><a href="#">Жесткий диск HDD 500ГБ, Western Digital Caviar Blue, WD5000AAKX</a></div>
+                                    <div class="catalogue-list-item-descr">форм-фактор 2.5"; скорость вращения шпинделя 5400об/мин; буферная память</div>
+                                </div>
+
+                                <a href="#" class="catalogue-list-item-buy"><span>1 750 Р</span></a>
+
+                                <div class="catalogue-list-item-links">
+                                    <a href="#"><img src="images/catalogue-list-item-link-compare.png" alt="" width="22" height="19"></a>
+                                    <a href="#"><img src="images/catalogue-list-item-link-fav.png" alt="" width="22" height="18"></a>
+                                </div>
+                            </div>
+                            <!-- catalogue list item END -->
+
+                        </div>
+                        <!-- catalogue list END -->
+
+                        <div class="catalogue-more"><a href="files/catalogue-list-more-1.html"></a></div>
+
+                    </article>
+
+                </section>
+
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-consult"><a href="#">On-line помощник</a></div>
+
+                <div class="footer-middle">
+                    <div class="footer-compare">
+                        <div class="footer-compare-img"><img src="images/footer-compare.png" alt="" width="33" height="28"></div>
+                        <div class="footer-compare-val">5</div>
+                        <div class="footer-compare-link"><a href="#">Сравнения</a></div>
+                    </div>
+                    <div class="footer-fav">
+                        <div class="footer-fav-img"><img src="images/footer-fav.png" alt="" width="33" height="27"></div>
+                        <div class="footer-fav-val">0</div>
+                        <div class="footer-fav-link"><a href="#">Ваши закладки</a></div>
+                    </div>
+                </div>
+
+                <div class="footer-cart">
+                    <div class="footer-cart-link"><a href="#">Ваша корзина</a></div>
+                    <div class="footer-cart-val">5</div>
+                </div>
+
+                <div class="footer-order-link">
+                    <a href="#">Оформить заказ</a>
+                </div>
+
+                <a href="#" class="footer-back"></a>
+            </div>
+        </footer>
+
+        <div id="place-load"></div>
+
+    </body>
+</html>
